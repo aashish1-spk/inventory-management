@@ -65,3 +65,11 @@
     "minimum-stability": "stable",
     "prefer-stable": true
 }
+{
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0",
+        "intervention/image": "^3.9"
+    }
+}
+
