@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ asset('admin-asset/plugins/fontawesome-free/css/all.min.css') }}">
 		<!-- Theme style -->
 		<link rel="stylesheet" href="{{ asset('admin-asset/css/adminlte.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('admin-asset/plugins/dropzone/min/dropzone.min.css') }}">
         <link rel="stylesheet" href="{{ asset('admin-asset/css/custom.css') }}">
 		<link rel="stylesheet" href="{{ asset('admin-asset/css/custom.css') }}">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
@@ -100,6 +101,8 @@
        	 }
     	});
 	</script>
+
+	
 
 
 
