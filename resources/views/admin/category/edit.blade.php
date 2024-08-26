@@ -1,3 +1,11 @@
+
+<style>
+  #aashish-thumb {
+    margin: 30px;
+  }
+</style>
+
+
 @extends('admin.layouts.app')
 
 
@@ -55,7 +63,7 @@
 
                                         @if(!empty($category->image))
                                         <div>
-                                            <img width="250"  src="{{ asset('uploads/category/thumb/'.$category->image) }}" alt="">
+                                            <img id="aashish-thumb" width="250" src="{{ asset('uploads/category/thumb/'.$category->image) }}" alt="">
                                         </div>
                                         @endif
 
